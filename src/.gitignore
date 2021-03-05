@@ -1,0 +1,49 @@
+# logs
+/logs/
+/www/bitrix/*.log
+/www/bitrix/log/
+/www/bitrix/modules/*.log
+
+# cache
+/www/bitrix/cache/
+/www/bitrix/managed_cache/
+/www/bitrix/stack_cache/
+
+# temporary
+/www/bitrix/tmp/
+!/www/bitrix/tmp/.gitkeep
+/tmp/*
+!/tmp/.gitkeep
+/data/*.old.csv
+
+# backups && updates
+/www/bitrix/backup/
+/www/bitrix/updates/
+!/www/bitrix/updates/.htaccess
+
+# upload
+!/www/upload
+/www/upload/*
+!/www/upload/gag
+!/www/upload/.htaccess
+
+# configs
+/www/bitrix/php_interface/
+!/www/bitrix/php_interface/.htaccess
+/www/bitrix/.settings*.php
+/www/bitrix/license_key.php
+/.env.local
+
+# all test directories in public folder
+/www/**/test/
+
+# all project extra settings
+/settings/**/*_extra.php
+
+/www/git_branch_korus
+/www/bitrix/modules/cluster/memcache.php
+
+/lock/*
+!/lock/.gitkeep
+/exchange/*
+!/exchange/.gitkeep
